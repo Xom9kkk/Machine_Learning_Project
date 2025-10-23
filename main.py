@@ -14,7 +14,7 @@ print("====== Task A ======")
 df = pd.read_csv("Lung_Cancer_Trends_Realistic.csv", keep_default_na=False)
 
 # General information
-print("=== First 5 rows of DataFrame ===")
+print("== First 5 rows of DataFrame ==")
 print(df.head())
 print("\n=== General information about DataFrame ===")
 print(df.info())
